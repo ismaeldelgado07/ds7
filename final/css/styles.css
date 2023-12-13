@@ -382,3 +382,21 @@ body {
   cursor: pointer;
 
 }
+
+.container-bienes-raices {
+  background-color: #eee;
+  text-align: center;
+  padding: 20px;
+}
+
+.title-bienes-raices {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.subtitle-bienes-raices {
+  font-size: 16px;
+  color: #666;
+  margin-top: 10px;
+}

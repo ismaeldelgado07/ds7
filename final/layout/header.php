@@ -40,12 +40,12 @@
             <a href="login.php" class="split">Iniciar sesión</a>
         </div>
      
-        <div class="block">
-            <center>
-                <h1>
-                    <span class="bold-text" >Bienes</span><span class="normal-text">Raices</span>
-                </h1>
-            </center>
+        <div class="container-bienes-raices">
+                    <div class="title-bienes-raices"> <span class="bold-text" >Bienes</span><span class="normal-text">Raices</span></div>
+                    <div class="subtitle-bienes-raices">
+                        Conoce las zonas más exclusivas en bienes raíces en Panamá a las mejores precios.
+                        ¡Eche un vistazo a nuestra lista destacada con oportunidades únicas para invertir en Panamá!
+                    </div>
         </div>
 
         

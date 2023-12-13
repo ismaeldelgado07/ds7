@@ -29,9 +29,6 @@
         protected $tipoimagen2;
         protected $rutaimagen2;
 
-
-        
-
         public function __construct(){
             parent::__construct();
         }
@@ -65,7 +62,24 @@
             }
         }
 
+        public function busqueda_avanzada($keyword,$province,$location,$propertie_Type,$min_price,$max_price,$constructionYear,$size){
+            
+            $sql = "CALL sp_busqueda_avanzada('$keyword', '$province', '$location', '$propertie_Type', '$min_price', '$max_price', '$constructionYear', '$size')";
+
+            // Ejecutar la consulta
+            $consulta = $this->_db->query($sql);
         
+            // Manejar el resultado de la consulta según sea necesario
+            if ($consulta) {
+                $resultado = $consulta->fetch_all(MYSQLI_ASSOC);
+                $consulta->close();
+                $this->_db->close();
+                return $resultado;
+            } else {
+                echo "Error en la consulta: " . $this->_db->error;
+                return false;
+            }
+        }
     }
 
 ?>
