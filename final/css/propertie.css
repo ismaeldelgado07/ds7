@@ -1,0 +1,299 @@
+
+.contenedor-name-price {
+    width: 75%;
+    margin:0 auto;
+}
+
+.izquierda {
+    float: left;
+    width: 50%;
+    background-color: rgba(173, 216, 230, 0);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.derecha {
+    float: right;
+    width: 50%;
+    background-color: rgba(240, 128, 128, 0);
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: right;
+}
+
+/*contenedor de contenido*/ 
+.contenido {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.horizontal-divider {
+    border-top: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2%;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-text, .right-text {
+    flex: 0 0 48%; /* Cambia el porcentaje según tu preferencia */
+    margin-right: 10px; /* Añade un margen derecho entre los elementos */
+    box-sizing: border-box;
+}
+
+.right-text:last-child {
+    margin-right: 0; /* Elimina el margen derecho del último .right-text */
+}
+
+.google-maps {
+    height: 200px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.maintenance {
+    font-weight: bold;
+    padding-bottom: 55%;
+}
+
+/*Formulario de contacto*/
+
+.contenedor-form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px auto; /* Aumenté el margen */
+    max-width: 600px;
+    padding: 30px; /* Aumenté el espacio interno */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.2);
+    background-color: #fff;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Aumenté el espacio entre las filas */
+}
+
+.form-group {
+    flex: 48%;
+}
+
+.mensaje-group {
+    margin-bottom: 20px; /* Aumenté el espacio entre la sección de mensaje y las filas anteriores */
+}
+
+.mensaje-group textarea {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Bordes casi transparentes */
+    width: 100%;
+    text-align: left;
+    height: 150px; /* Aumenté la altura del cuadro de texto */
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Aumenté el espacio entre la sección de checkbox y las filas anteriores */
+}
+
+.btn-informacion {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #755808;
+    color: #fff;
+    border: none;
+    padding: 5px 10px; /* Aumenté el tamaño del botón */
+    cursor: pointer;
+    font-size: 16px; /* Aumenté el tamaño del texto */
+    border-radius: 8px;
+}
+
+.btn-informacion.success {
+    background-color: #28a745;
+}
+
+.btn-informacion.error {
+    background-color: #dc3545;
+}
+
+.btn-informacion:hover {
+    background-color: #0056b3;
+}
+
+.btn-ver-listados button {
+    background-color: #000;
+    color: #fff;
+    padding: 1px 8px; /* Aumenté el tamaño del botón */
+    font-size: 12px; /* Aumenté el tamaño del texto */
+    border-radius: 8px;
+}
+
+.btn-ver-listados button:hover {
+    background-color: #333;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; /* Aumenté el espacio entre la sección de información y las filas anteriores */
+}
+
+.info-group {
+    flex: 48%;
+}
+
+.btn-ver-listados {
+    flex: 48%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-ver-listados button {
+    margin-left: auto;
+}
+
+h2 {
+    margin-bottom: 20px; /* Aumenté el espacio entre el título y la sección de información */
+    font-size: 20px; /* Aumenté el tamaño del texto */
+}
+
+.input-contact-us {
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Bordes casi transparentes */
+    border-radius: 8px; /* Borde redondeado */
+    padding: 8px; /* Aumenta el espacio interno */
+    width: 100%; /* Ancho del 100% para ocupar el contenedor */
+    font-size: 14px; /* Tamaño del texto */
+}
+
+/* Estilo del placeholder */
+.input-contact-us::placeholder {
+    color: #888; /* Color gris para el placeholder */
+}
+
+.checkbox-group label {
+    margin-left: 8px; /* Ajusta el espacio entre el texto y el checkbox */
+}
+
+.form-row .form-group {
+    margin-right: 10px; /* Ajusta el espacio entre los inputs */
+}
+
+/* Formulario de contacto opaco*/
+.nuevo-contenedor {
+    background-color: #ececec; /* Cambia el color de fondo a uno diferente */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Cambia la sombra */
+}
+
+.nuevo-contenedor h4 {
+    opacity: 0.7; /* Hace el título un poco opaco */
+    text-align: center; /* Centra el texto */
+}
+
+.nuevo-contenedor .form-row {
+    justify-content: center; /* Centra los elementos en la fila */
+}
+
+.nuevo-contenedor .btn-informacion {
+    background-color: #4CAF50; /* Cambia el color del botón */
+    color: #fff;
+}
+
+/* Nuevos estilos para el contenedor opaco */
+.contenedor-opaco {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semiopaco */
+}
+
+.contenedor-opaco h4 {
+    text-align: center; /* Centra el texto */
+    opacity: 0.7; /* Hace el título un poco opaco */
+}
+
+.contenedor-opaco .form-row,
+.contenedor-opaco .mensaje-group,
+.contenedor-opaco .checkbox-group,
+.contenedor-opaco .form-row .form-group {
+    opacity: 0.5; /* Opacar todos los elementos del formulario */
+    pointer-events: none; /* Deshabilitar interacción con los elementos opacos */
+}
+
+/* Estilos específicos para el botón del nuevo contenedor */
+.contenedor-opaco .btn-informacion {
+    background-color: #ffcc00; /* Cambia el color del botón */
+    color: #333; /* Cambia el color del texto del botón */
+    cursor: not-allowed; /* Cambia el cursor al intentar hacer clic */
+}
+
+/* Estilos para el contenedor del agente */
+.contenedor-agente {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    max-width: 600px;
+    padding: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+}
+
+.agente-izquierdo {
+    flex: 48%;
+    text-align: center;
+}
+
+.agente-izquierdo img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.agente-izquierdo h4 {
+    margin-top: 10px;
+}
+
+.agente-derecho {
+    flex: 48%;
+    text-align: center;
+}
+
+.btn-agente,
+.btn-whatsapp {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    align-items: bottom;
+}
+
+.btn-agente:hover,
+.btn-whatsapp:hover {
+    background-color: #333;
+}
+
+.work-company {
+    width: 120px;
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.img-company {
+    width: 100px; /* Define el ancho deseado */
+    height: auto; /* Ajusta automáticamente la altura para mantener la proporción original */
+    border-radius: 0; /* Elimina el efecto ovalado */
+    display: block; /* Elimina espacio adicional en la parte inferior de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Ajusta el tamaño del mapa */
+#map {
+    height: 200px;
+}
+
